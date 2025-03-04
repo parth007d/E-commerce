@@ -17,18 +17,17 @@ const Navbar = () => {
               <SiPuma />
             </div>
           </Link>
-          <div className="flex gap-8 font-bold">
-            <div className="flex gap-2 items-center">
+          <div className="flex gap-8 font-bold cursor-pointer">
+            <div className="flex gap-2 items-center hover:border-b border-white transition duration-200">
               <h1>New</h1>
               <AiFillThunderbolt className="text-orange-600" />
             </div>
-            <h1>Men</h1>
-            <h1>Women</h1>
-            <h1>Sports</h1>
-            <h1>Motorsport</h1>
-            <h1>Collaborations</h1>
-            <h1>Kids</h1>
-            <h1>Outlet</h1>
+            <h1 className="hover:border-b border-white">Women</h1>
+            <h1 className="hover:border-b border-white">Sports</h1>
+            <h1 className="hover:border-b border-white">Motorsport</h1>
+            <h1 className="hover:border-b border-white">Collaborations</h1>
+            <h1 className="hover:border-b border-white">Kids</h1>
+            <h1 className="hover:border-b border-white">Outlet</h1>
           </div>
         </div>
         <div className="flex items-center gap-4">
